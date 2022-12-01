@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Welcome • Posts by &#34;环境配置&#34; tag</title>
+        <link>http://example.com</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Fri, 28 Oct 2022 15:25:38 +0800</pubDate>
+        <lastBuildDate>Fri, 28 Oct 2022 15:25:38 +0800</lastBuildDate>
+        <category>blog</category>
+        <category>Git</category>
+        <category>JAVA</category>
+        <category>Redis</category>
+        <category>JDK</category>
+        <category>环境配置</category>
+        <category>WEB</category>
+        <category>HTML</category>
+        <category>Vue</category>
+        <category>Uniapp</category>
+        <category>iconfont</category>
+        <category>阿里巴巴矢量库</category>
+        <category>依赖</category>
+        <category>uview</category>
+        <category>UI框架</category>
+        <category>Jar</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2022/10/28/blog/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/%E5%90%8E%E7%AB%AF/JDK%E5%85%A8%E5%B1%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98/</guid>
+            <title>JDK全局环境配置问题</title>
+            <link>http://example.com/2022/10/28/blog/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/%E5%90%8E%E7%AB%AF/JDK%E5%85%A8%E5%B1%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98/</link>
+            <category>blog</category>
+            <category>JAVA</category>
+            <category>JDK</category>
+            <category>环境配置</category>
+            <pubDate>Fri, 28 Oct 2022 15:25:38 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;jdk全局环境配置问题&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#jdk全局环境配置问题&#34;&gt;#&lt;/a&gt; JDK 全局环境配置问题&lt;/h2&gt;
+&lt;h4 id=&#34;windows10系统修改jdk版本后配置环境变量不生效&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#windows10系统修改jdk版本后配置环境变量不生效&#34;&gt;#&lt;/a&gt; windows10 系统修改 JDK 版本后配置环境变量不生效&lt;/h4&gt;
+&lt;p&gt;之前安装了个 jdk8 版本，今天突然想安装个更新版本的 jdk11 来用，但在安装好 JDK11 并配置环境变量后发现修改 JDK 版本后配置的环境变量不生效的。&lt;/p&gt;
+&lt;p&gt;以前安装过安装版的 jdk 后，配置过环境变量，然后现在更换 jdk 版本且修改环境变量并不能生效，如原本安装了 1.8，现更换为 1.7（或其他版本），且配置了环境变量，但是 java -version 仍显示 1.8（任然显示原来的版本）。&lt;/p&gt;
+&lt;h4 id=&#34;原因&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#原因&#34;&gt;#&lt;/a&gt; 原因&lt;/h4&gt;
+&lt;p&gt;当使用安装版本的 JDK 程序时（一般是 1.7 版本以上），在安装结束后安装程序会自动将 java.exe、javaw.exe、javaws.exe 三个可执行文件复制到&lt;strong&gt; C:\Windows\System32 目录，这个目录在 WINDOWS 环境变量中的优先级高于 JAVA_HOME 设置的环境变量优先级，故此直接更改 JAVA_HOME 会无效。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;另外，JDK1.8 安装版本，还会在 C:\ProgramData\Oracle\Java 目录中生成一些配置文件，并同时将此目录写到环境变量中的 Path 中。&lt;/p&gt;
+&lt;h4 id=&#34;解决&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#解决&#34;&gt;#&lt;/a&gt; 解决&lt;/h4&gt;
+&lt;p&gt;删除 C:\Windows\System32 目录下的 java.exe、javaw.exe、javaws.exe 三个文件（如果没有就不用删）&lt;/p&gt;
+&lt;h5 id=&#34;下面奏效&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#下面奏效&#34;&gt;#&lt;/a&gt; 下面奏效&lt;/h5&gt;
+&lt;p&gt;&lt;strong&gt;删除环境变量 Path 中 C:\ProgramData\Oracle\Java\javapath 的配置&lt;/strong&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

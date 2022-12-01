@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title>Welcome • Posts by &#34;iconfont&#34; tag</title>
+    <link href="http://example.com" />
+    <updated>2022-10-26T07:25:38.000Z</updated>
+    <category term="blog" />
+    <category term="Git" />
+    <category term="JAVA" />
+    <category term="Redis" />
+    <category term="JDK" />
+    <category term="环境配置" />
+    <category term="WEB" />
+    <category term="HTML" />
+    <category term="Vue" />
+    <category term="Uniapp" />
+    <category term="iconfont" />
+    <category term="阿里巴巴矢量库" />
+    <category term="依赖" />
+    <category term="uview" />
+    <category term="UI框架" />
+    <category term="Jar" />
+    <entry>
+        <id>http://example.com/2022/10/26/blog/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/%E5%89%8D%E7%AB%AF/iconfont%E6%95%99%E7%A8%8B/</id>
+        <title>iconfont教程</title>
+        <link rel="alternate" href="http://example.com/2022/10/26/blog/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/%E5%89%8D%E7%AB%AF/iconfont%E6%95%99%E7%A8%8B/"/>
+        <content type="html">&lt;h1 id=&#34;使用iconfont教程&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用iconfont教程&#34;&gt;#&lt;/a&gt; 使用 iconfont 教程&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;iconfont 选择所需的图标加购&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;购物车中的图标加入项目&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;按需修改图标的名称&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;下载 documen 压缩包&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;将 iconfont.css 中有关图标的代码复制到项目的 iconfont.css 中即可&lt;/p&gt;
+&lt;p&gt;注意：以下&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;src: url(&amp;#x27;~@/static/icon/iconfont.ttf&amp;#x27;),&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;       url(&amp;#x27;~@/static/icon/iconfont.woff2?t=1641780677504&amp;#x27;) format(&amp;#x27;woff2&amp;#x27;),&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;       url(&amp;#x27;~@/static/icon/iconfont.woff?t=1641780677504&amp;#x27;) format(&amp;#x27;woff&amp;#x27;),&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;       url(&amp;#x27;~@/static/icon/iconfont.ttf?t=1641780677504&amp;#x27;) format(&amp;#x27;truetype&amp;#x27;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+</content>
+        <category term="blog" />
+        <category term="WEB" />
+        <category term="iconfont" />
+        <category term="阿里巴巴矢量库" />
+        <updated>2022-10-26T07:25:38.000Z</updated>
+    </entry>
+</feed>

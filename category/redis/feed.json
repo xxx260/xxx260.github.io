@@ -1,0 +1,20 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Welcome • All posts by \"redis\" category",
+    "description": "",
+    "home_page_url": "http://example.com",
+    "items": [
+        {
+            "id": "http://example.com/2022/10/25/blog/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/%E5%90%8E%E7%AB%AF/Redis%E5%90%AF%E5%8A%A8%E9%97%AA%E9%80%80/",
+            "url": "http://example.com/2022/10/25/blog/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/%E5%90%8E%E7%AB%AF/Redis%E5%90%AF%E5%8A%A8%E9%97%AA%E9%80%80/",
+            "title": "Redis启动闪退",
+            "date_published": "2022-10-25T07:25:38.000Z",
+            "content_html": "<h2 id=\"redis启动时闪退\"><a class=\"markdownIt-Anchor\" href=\"#redis启动时闪退\">#</a> redis 启动时闪退</h2>\n<h4 id=\"遇到的解决方法\"><a class=\"markdownIt-Anchor\" href=\"#遇到的解决方法\">#</a> 遇到的解决方法：</h4>\n<h5 id=\"任务管理器-服务-停止redis服务进程\"><a class=\"markdownIt-Anchor\" href=\"#任务管理器-服务-停止redis服务进程\">#</a> 任务管理器 -&gt; 服务 -&gt; 停止 redis 服务进程</h5>\n<h4 id=\"任务管理器-打开服务-将reisd关闭-然后启动redis相应程序\"><a class=\"markdownIt-Anchor\" href=\"#任务管理器-打开服务-将reisd关闭-然后启动redis相应程序\">#</a> 任务管理器 -&gt; 打开服务 -&gt; 将 reisd 关闭 - &gt; 然后启动 redis 相应程序</h4>\n<p><strong>1.Windows+r 进入 cmd，</strong><br>\n<strong>2.cd 进入到 redis-server.exe 所在文件夹下，</strong><br>\n<strong>3. 写入 redis-server.exe redis.windows.conf ，回车</strong><img data-src=\"https://www.likecs.com/default/index/img?u=aHR0cHM6Ly9waWFuc2hlbi5jb20vaW1hZ2VzLzc2MS8xYTE0YjNjMzUxZDAxZTcyOTZmNzkwY2JhNGY2ZmNiMS5wbmc=\" alt=\"redis启动时闪退，史上最详细的解决办法，看完还解决不了来找我\"><br>\n<strong> 4. 如出现如图所示错误，打开 redis.windows.conf，有一行 bind 127.0.0.1 ，前面不要有</strong></p>\n<p><strong>#</strong><img data-src=\"https://www.likecs.com/default/index/img?u=aHR0cHM6Ly9waWFuc2hlbi5jb20vaW1hZ2VzLzQ5NC82ZjljMGM2MThiOWVmNDdjZmVlYzYzOGNhN2JkZDIyNi5wbmc=\" alt=\"redis启动时闪退，史上最详细的解决办法，看完还解决不了来找我\"></p>\n<p><strong>5. 保存后退出，再来 redis-server.exe redis.windows.conf，如果还报错，按下图输入</strong></p>\n<figure class=\"highlight plaintext\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">//先输入密码</span><br><span class=\"line\">127.0.0.1:6379&gt;auth &quot;123456&quot;</span><br><span class=\"line\">ok</span><br></pre></td></tr></table></figure>\n<p><strong>6. 再如图下输入</strong></p>\n<p><img data-src=\"https://www.likecs.com/default/index/img?u=aHR0cHM6Ly9waWFuc2hlbi5jb20vaW1hZ2VzLzY0MS82MzllMGE0ZTczNTBmMzJiYWQxMjZhM2YzMDcwYjczOS5KUEVH\" alt=\"redis启动时闪退，史上最详细的解决办法，看完还解决不了来找我\"></p>\n",
+            "tags": [
+                "blog",
+                "JAVA",
+                "Redis"
+            ]
+        }
+    ]
+}

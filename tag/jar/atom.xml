@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://example.com</id>
+    <title>Welcome • Posts by &#34;jar&#34; tag</title>
+    <link href="http://example.com" />
+    <updated>2022-11-25T07:25:38.000Z</updated>
+    <category term="blog" />
+    <category term="Git" />
+    <category term="JAVA" />
+    <category term="Redis" />
+    <category term="JDK" />
+    <category term="环境配置" />
+    <category term="WEB" />
+    <category term="HTML" />
+    <category term="Vue" />
+    <category term="Uniapp" />
+    <category term="iconfont" />
+    <category term="阿里巴巴矢量库" />
+    <category term="依赖" />
+    <category term="uview" />
+    <category term="UI框架" />
+    <category term="Jar" />
+    <entry>
+        <id>http://example.com/2022/11/25/blog/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/%E5%89%8D%E7%AB%AF/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB-jar%E5%8C%85%E7%9A%84%E4%BD%BF%E7%94%A8/</id>
+        <title>前后端分离-jar包的使用</title>
+        <link rel="alternate" href="http://example.com/2022/11/25/blog/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/%E5%89%8D%E7%AB%AF/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%88%86%E7%A6%BB-jar%E5%8C%85%E7%9A%84%E4%BD%BF%E7%94%A8/"/>
+        <content type="html">&lt;h2 id=&#34;uniapp前后端分离&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#uniapp前后端分离&#34;&gt;#&lt;/a&gt; uniapp 前后端分离&lt;/h2&gt;
+&lt;h3 id=&#34;前端&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#前端&#34;&gt;#&lt;/a&gt; 前端&lt;/h3&gt;
+&lt;h5 id=&#34;运行前端程序&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#运行前端程序&#34;&gt;#&lt;/a&gt; 运行前端程序&lt;/h5&gt;
+&lt;h3 id=&#34;后端&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#后端&#34;&gt;#&lt;/a&gt; 后端&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h5 id=&#34;打开redis&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#打开redis&#34;&gt;#&lt;/a&gt; 打开 redis&lt;/h5&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;路径：D:\2.develop tool\Java\Redis-x64-5.0.14.1\Redis-x64-5.0.14.1&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h5 id=&#34;jar包连接后端&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#jar包连接后端&#34;&gt;#&lt;/a&gt; jar 包–连接后端&lt;/h5&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight json&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;//cmd 运行代码&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;//正常运行时，在对应文件夹打开cmd&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;java -jar jar包名称&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;comment&#34;&gt;//eg. java -jar perfect-campus-0.0.1-SNAPSHOT.jar&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;注意：&lt;span class=&#34;comment&#34;&gt;// jdk运行错误时，jar包保存至JDK/bin目录下该路径&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;D&lt;span class=&#34;punctuation&#34;&gt;:&lt;/span&gt;\&lt;span class=&#34;number&#34;&gt;2.&lt;/span&gt;develop tool\Java\JDK1&lt;span class=&#34;number&#34;&gt;.8&lt;/span&gt;\bin&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+</content>
+        <category term="blog" />
+        <category term="WEB" />
+        <category term="Jar" />
+        <updated>2022-11-25T07:25:38.000Z</updated>
+    </entry>
+</feed>

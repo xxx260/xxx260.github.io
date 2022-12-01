@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Welcome • Posts by &#34;git实际操作&#34; category</title>
+        <link>http://example.com</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Tue, 25 Oct 2022 15:25:38 +0800</pubDate>
+        <lastBuildDate>Tue, 25 Oct 2022 15:25:38 +0800</lastBuildDate>
+        <category>blog</category>
+        <category>Git</category>
+        <category>JAVA</category>
+        <category>Redis</category>
+        <category>JDK</category>
+        <category>环境配置</category>
+        <category>WEB</category>
+        <category>HTML</category>
+        <category>Vue</category>
+        <category>Uniapp</category>
+        <category>iconfont</category>
+        <category>阿里巴巴矢量库</category>
+        <category>依赖</category>
+        <category>uview</category>
+        <category>UI框架</category>
+        <category>Jar</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2022/10/25/blog/Git/Gitee_Github%E4%B8%8EVscode_IDEA/</guid>
+            <title>Gitee_Github与Vscode_IDEA</title>
+            <link>http://example.com/2022/10/25/blog/Git/Gitee_Github%E4%B8%8EVscode_IDEA/</link>
+            <category>blog</category>
+            <category>Git</category>
+            <pubDate>Tue, 25 Oct 2022 15:25:38 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;giteegithub与vscodeidea&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#giteegithub与vscodeidea&#34;&gt;#&lt;/a&gt; Gitee/Github 与 Vscode/IDEA&lt;/h2&gt;
+&lt;h2 id=&#34;vscode&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#vscode&#34;&gt;#&lt;/a&gt; Vscode&lt;/h2&gt;
+&lt;h3 id=&#34;gitee&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#gitee&#34;&gt;#&lt;/a&gt; Gitee&lt;/h3&gt;
+&lt;h4 id=&#34;创建git仓库&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#创建git仓库&#34;&gt;#&lt;/a&gt; 创建 Git 仓库&lt;/h4&gt;
+&lt;h4 id=&#34;打开vscode终端&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#打开vscode终端&#34;&gt;#&lt;/a&gt; 打开 VScode 终端&lt;/h4&gt;
+&lt;h4 id=&#34;git全局设置依次输入命令&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#git全局设置依次输入命令&#34;&gt;#&lt;/a&gt; GIt 全局设置，依次输入命令：&lt;/h4&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git config --global user.name &amp;quot;北沐xxx&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git config --global user.email &amp;quot;2603361579@qq.com&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git init  //初始化,会在项目根目录生成一个隐藏的.git文件夹&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git add .  //提交到本地仓库&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git commit -m &amp;quot;项目描述&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git remote add origin ...  //...为Git地址&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git push -u origin &amp;quot;master&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;拉取他人提交&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#拉取他人提交&#34;&gt;#&lt;/a&gt; 拉取他人提交&lt;/h4&gt;
+&lt;p&gt;在终端输入以下命令：&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git pull origin master &lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;上传同步gitee&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#上传同步gitee&#34;&gt;#&lt;/a&gt; 上传同步 Gitee&lt;/h4&gt;
+&lt;h5 id=&#34;情况一他人为修改上传至gitee&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#情况一他人为修改上传至gitee&#34;&gt;#&lt;/a&gt; 情况一：他人为修改上传至 Gitee&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;修改代码后，VScode 会有提示（提示在左边侧边栏一个分支一样的图案）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;点击修改文件的 “&lt;strong&gt;+&lt;/strong&gt;” 号提交至暂存区&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;输入框输入提交信息&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;点击提交&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;点击同步更改&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h5 id=&#34;情况二团队其他成员修改了某文件并已提交入库&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#情况二团队其他成员修改了某文件并已提交入库&#34;&gt;#&lt;/a&gt; 情况二：团队其他成员修改了某文件并已提交入库&lt;/h5&gt;
+&lt;p&gt;保留自己修改的文件&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git stash #封存修改&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git pull origin master &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git stash pop #把修改还原&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;git stash：备份当前工作区内容，从最近的一次提交中读取相关内容，让工作区保证和上次提交的内容一致。同时，将当前工作区内容保存到 Git 栈中&lt;/li&gt;
+&lt;li&gt;git pull：拉取服务器上当前分支代码&lt;/li&gt;
+&lt;li&gt;git stash pop：从 Git 栈中读取最近一次保存的内容，恢复工作区相关内容。同时，用户可能进行多次 stash 操作，需要保证后 stash 的最先被取到，所以用栈（先进后出）来管理；pop 取栈顶的内容并恢复&lt;/li&gt;
+&lt;li&gt;git stash list：显示 Git 栈内的所有备份，可以利用这个列表来决定从那个地方恢复&lt;/li&gt;
+&lt;li&gt;git stash clear：清空 Git 栈&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;idea&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#idea&#34;&gt;#&lt;/a&gt; IDEA&lt;/h2&gt;
+&lt;h3 id=&#34;github&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#github&#34;&gt;#&lt;/a&gt; GitHub&lt;/h3&gt;
+&lt;h4 id=&#34;拉取项目&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#拉取项目&#34;&gt;#&lt;/a&gt; 拉取项目&lt;/h4&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/29f893f28fe04d1e9e86a0aca5e0106b.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/60b3b40c9c134ab085c3fe5af4330c89.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://img-blog.csdnimg.cn/1a30332620d441c9969c70f227a88243.png&#34; alt=&#34;img&#34;&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

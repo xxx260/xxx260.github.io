@@ -1,0 +1,333 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Welcome • Posts by &#34;html&#34; tag</title>
+        <link>http://example.com</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Tue, 22 Nov 2022 15:25:38 +0800</pubDate>
+        <lastBuildDate>Tue, 22 Nov 2022 15:25:38 +0800</lastBuildDate>
+        <category>blog</category>
+        <category>Git</category>
+        <category>JAVA</category>
+        <category>Redis</category>
+        <category>JDK</category>
+        <category>环境配置</category>
+        <category>WEB</category>
+        <category>HTML</category>
+        <category>Vue</category>
+        <category>Uniapp</category>
+        <category>iconfont</category>
+        <category>阿里巴巴矢量库</category>
+        <category>依赖</category>
+        <category>uview</category>
+        <category>UI框架</category>
+        <category>Jar</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2022/11/22/blog/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/%E5%89%8D%E7%AB%AF/HTML/</guid>
+            <title>HTML</title>
+            <link>http://example.com/2022/11/22/blog/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/%E5%89%8D%E7%AB%AF/HTML/</link>
+            <category>blog</category>
+            <category>WEB</category>
+            <category>HTML</category>
+            <pubDate>Tue, 22 Nov 2022 15:25:38 +0800</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;html&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#html&#34;&gt;#&lt;/a&gt; HTML&lt;/h1&gt;
+&lt;h4 id=&#34;边框&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#边框&#34;&gt;#&lt;/a&gt; 边框&lt;/h4&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;fieldset&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	&amp;lt;legend&amp;gt;学生档案&amp;lt;/legend&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;/fieldset&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;音频播放&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#音频播放&#34;&gt;#&lt;/a&gt; 音频播放&lt;/h4&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;audio&amp;gt; &amp;lt;/audio&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;video&amp;gt; &amp;lt;/video&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;属性：&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;src:播放路径&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;controls：音频播放器的控制面板&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;autoplay：自动播放&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;loop：循环播放&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;width/height：只设置一个即可，让其等比缩放&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;poster：当视频还没有完全下载，或者用户还没有点击播放前的默认显示的封面。默认显示当前视频文件的第一幅画面。&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;表单&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#表单&#34;&gt;#&lt;/a&gt; 表单&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;类型&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;使用示例&lt;/th&gt;
+&lt;th&gt;含义&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;email&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;lt;input type=&amp;quot;email&amp;quot;&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;输入邮箱格式&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;tel&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;lt;input type=&amp;quot;tel&amp;quot;&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;输入手机号码格式&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;url&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;lt;input type=&amp;quot;url&amp;quot;&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;输入 url 格式&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;number&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;lt;input type=&amp;quot;number&amp;quot;&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;输入数字格式&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;search&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;lt;input type=&amp;quot;search&amp;quot;&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;搜索框（体现语义化）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;range&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;lt;input type=&amp;quot;range&amp;quot;&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;自由拖动滑块&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;color&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;lt;input type=&amp;quot;color&amp;quot;&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;拾色器&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;time&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;lt;input type=&amp;quot;time&amp;quot;&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;date&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;lt;input type=&amp;quot;date&amp;quot;&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;datetime&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;lt;input type=&amp;quot;datetime&amp;quot;&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;month&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;lt;input type=&amp;quot;month&amp;quot;&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;week&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;&amp;lt;input type=&amp;quot;week&amp;quot;&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;元素&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;含义&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;------------&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;--------------&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;&amp;lt;datalist&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;数据列表&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;&amp;lt;keygen&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;生成加密字符串&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;&amp;lt;output&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;输出结果&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;&amp;lt;meter&amp;gt;&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;度量器&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;属性&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;用法&lt;/td&gt;
+&lt;td&gt;含义&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;------------&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;----------------------------------------------&lt;/td&gt;
+&lt;td&gt;------------&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;placeholder&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;input type=&#34;text&#34; placeholder=&#34;请输入用户名&#34;&gt;&lt;/td&gt;
+&lt;td&gt;占位符&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;autofocus&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;input type=&#34;text&#34; autofocus&gt;&lt;/td&gt;
+&lt;td&gt;自动获得焦点&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;multiple&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;input type=&#34;file&#34; multiple&gt;&lt;/td&gt;
+&lt;td&gt;多文件上传&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;autocomplete&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;input type=&#34;text&#34; autocomplete=&#34;off&#34;&gt;&lt;/td&gt;
+&lt;td&gt;自动完成&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;form&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;input type=&#34;text&#34; form=&#34;某表单ID&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;novalidate&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;form novalidate&gt;&lt;/form&gt;&lt;/td&gt;
+&lt;td&gt;关闭验证&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;required&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;input type=&#34;text&#34; required&gt;&lt;/td&gt;
+&lt;td&gt;必填项&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;pattern&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;input type=&#34;text&#34; pattern=&#34;\d&#34;&gt;&lt;/td&gt;
+&lt;td&gt;自定义验证&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;获取dom操作&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#获取dom操作&#34;&gt;#&lt;/a&gt; 获取 dom 操作&lt;/h4&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;window.onload=function()&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	document.querySelector()&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;	document.querySelectorAll()&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;类名操作&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#类名操作&#34;&gt;#&lt;/a&gt; 类名操作&lt;/h4&gt;
+&lt;p&gt;1、Node.classList.add (‘class’) 添加 class&lt;/p&gt;
+&lt;p&gt;2、Node.classList.remove (‘class’) 移除 class&lt;/p&gt;
+&lt;p&gt;3、Node.classList.toggle (‘class’) 切换 class，有则移除，无则添加&lt;/p&gt;
+&lt;p&gt;4、Node.classList.contains (‘class’) 检测是否存在 class&lt;/p&gt;
+&lt;p&gt;Node 指一个有效的 DOM 节点，是一个通称。&lt;/p&gt;
+&lt;h4 id=&#34;拖拽&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#拖拽&#34;&gt;#&lt;/a&gt; 拖拽&lt;/h4&gt;
+&lt;p&gt;a) 在拖动目标上触发事件 (源元素):&lt;/p&gt;
+&lt;p&gt;Ø &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3d3dy5ydW5vb2IuY29tL2pzcmVmL2V2ZW50LW9uZHJhZ3N0YXJ0Lmh0bWw=&#34;&gt;ondragstart&lt;/span&gt; - 用户开始拖动元素时触发&lt;/p&gt;
+&lt;p&gt;Ø ondrag - 元素正在拖动时触发&lt;/p&gt;
+&lt;p&gt;Ø &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3d3dy5ydW5vb2IuY29tL2pzcmVmL2V2ZW50LW9uZHJhZ2VuZC5odG1s&#34;&gt;ondragend&lt;/span&gt; - 用户完成元素拖动后触发&lt;/p&gt;
+&lt;p&gt;b) 释放目标时触发的事件 —  当拖拽元素在目标容器上进行操作的时候:&lt;/p&gt;
+&lt;p&gt;Ø &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3d3dy5ydW5vb2IuY29tL2pzcmVmL2V2ZW50LW9uZHJhZ2VudGVyLmh0bWw=&#34;&gt;ondragenter&lt;/span&gt; - 当被鼠标拖动的对象进入其容器范围内时触发此事件&lt;/p&gt;
+&lt;p&gt;Ø &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3d3dy5ydW5vb2IuY29tL2pzcmVmL2V2ZW50LW9uZHJhZ292ZXIuaHRtbA==&#34;&gt;ondragover&lt;/span&gt; - 当某被拖动的对象在另一对象容器范围内拖动时触发此事件&lt;/p&gt;
+&lt;p&gt;Ø &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3d3dy5ydW5vb2IuY29tL2pzcmVmL2V2ZW50LW9uZHJhZ2xlYXZlLmh0bWw=&#34;&gt;ondragleave&lt;/span&gt; - 当被鼠标拖动的对象离开其容器范围内时触发此事件&lt;/p&gt;
+&lt;p&gt;Ø &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3d3dy5ydW5vb2IuY29tL2pzcmVmL2V2ZW50LW9uZHJvcC5odG1s&#34;&gt;ondrop&lt;/span&gt; - 在一个拖动过程中，释放鼠标键时触发此事件&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;网页结构代码&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;!--标记是否可以拖动，true表示可以拖动--&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;div class=&amp;quot;div1&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;lt;p draggable=&amp;quot;true&amp;quot; id=&amp;quot;pe&amp;quot;&amp;gt;试着把我拖过去&amp;lt;/p&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;div class=&amp;quot;div2&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;Js 代码 (几个事件的说明)：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;41&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;42&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;43&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;44&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;45&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;46&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;47&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;48&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;49&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;50&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;51&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;52&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;53&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;54&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;55&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    /*这几次拖拽的事件源都是当前被拖拽的元素*/&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    /*开始拖拽*/&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    document.addEventListener(&amp;quot;dragstart&amp;quot;,function(e)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        //设置当前目标元素的透明度，产生拖拽效果&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        e.target.style.opacity=0.4;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        //将当前的被拖拽元素的id号存储到事件源对象中&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        e.dataTransfer.setData(&amp;quot;Text&amp;quot;, e.target.id);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  /*拖拽进行中*/&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    document.addEventListener(&amp;quot;drag&amp;quot;,function(e)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        e.target.parentNode.style.borderColor=&amp;quot;green&amp;quot;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    /*拖拽结束*/&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    document.addEventListener(&amp;quot;dragend&amp;quot;,function(e)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        e.target.style.opacity=1;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        e.target.parentNode.style.borderColor=&amp;quot;red&amp;quot;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    /*下面几个方法的事件源是目标元素，而不是被拖拽的元素*/&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    /*当将当前元素拖拽到另外一个元素上时触发*/&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    document.addEventListener(&amp;quot;dragenter&amp;quot;,function(e)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        if(e.target.className==&amp;quot;div2&amp;quot;)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            e.target.style.borderColor=&amp;quot;pink&amp;quot;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        else if(e.target.className==&amp;quot;div1&amp;quot;)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            e.target.style.borderColor=&amp;quot;red&amp;quot;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    /*拖拽元素在目标元素上移动时触发*/&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    document.addEventListener(&amp;quot;dragover&amp;quot;,function(e)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        /*默认情况下，一个元素不能拖拽到另外一个元素内，如果想允许拖拽，我们必须阻止默认的事件冒泡*/&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        e.preventDefault();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    /*当拖拽元素离开目标元素时触发*/&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    document.addEventListener(&amp;quot;dragleave&amp;quot;,function(e)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        if(e.target.className==&amp;quot;div2&amp;quot;)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            e.target.style.borderColor=&amp;quot;blue&amp;quot;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    /*当拖拽元素在目标元素上松开的时候触发*/&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    document.addEventListener(&amp;quot;drop&amp;quot;,function(e)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        //1.阻止事件冒泡&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        e.preventDefault();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        if(e.target.className==&amp;quot;div2&amp;quot; || e.target.className==&amp;quot;div1&amp;quot;)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            //2.还原目标元素的默认样式&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            e.target.style.borderColor=&amp;quot;blue&amp;quot;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            //3.获取被拖拽元素的id&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            var id= e.dataTransfer.getData(&amp;quot;Text&amp;quot;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            //4.追加被拖拽元素到目标元素&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            e.target.appendChild(document.getElementById(id));&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;web存储&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#web存储&#34;&gt;#&lt;/a&gt; web 存储&lt;/h4&gt;
+&lt;p&gt;Window.sessionStorage&lt;/p&gt;
+&lt;p&gt;a) 特点：&lt;/p&gt;
+&lt;p&gt;i. 生命周期为关闭浏览器窗口：相当于存储在当前页面的内内存中&lt;/p&gt;
+&lt;p&gt;ii. 在同一个窗口下数据可以共享 (在当前页面下可以获取到，换另外一个页面下不能获取到)&lt;/p&gt;
+&lt;p&gt;b) 方法介绍：(两种存储方式的方法一致)&lt;/p&gt;
+&lt;p&gt;i. SetItem (key,value): 设置数据，以键值对的方式&lt;/p&gt;
+&lt;p&gt;ii. getItem (key): 通过指定的键获取对应的值内容&lt;/p&gt;
+&lt;p&gt;iii. removeItem (key): 删除指定的 key 及对应的值内容&lt;/p&gt;
+&lt;p&gt;iv. clear (): 清空所有存储内容&lt;/p&gt;
+&lt;p&gt;c) 使用说明：&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    var userData=document.getElementById(&amp;quot;userName&amp;quot;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    //存储数据&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    document.getElementById(&amp;quot;setData&amp;quot;).onclick=function()&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        window.sessionStorage.setItem(&amp;quot;userName&amp;quot;,userData.value);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    //获取数据&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    document.getElementById(&amp;quot;getData&amp;quot;).onclick=function()&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        var value=window.sessionStorage.getItem(&amp;quot;userName&amp;quot;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        alert(value);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;ul&gt;
+&lt;li&gt;Window.localStorage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;a) 特点：&lt;/p&gt;
+&lt;p&gt;i. 永久生效，除非手动删除：存储在硬盘上&lt;/p&gt;
+&lt;p&gt;ii. 可以多窗口共享。但是不能跨浏览器&lt;/p&gt;
+&lt;p&gt;b) 使用说明：&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    var userData=document.getElementById(&amp;quot;userName&amp;quot;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    //存储数据&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    document.getElementById(&amp;quot;setData&amp;quot;).onclick=function()&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        window.localStorage.setItem(&amp;quot;userName&amp;quot;,userData.value);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    //获取数据&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    document.getElementById(&amp;quot;getData&amp;quot;).onclick=function()&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        var value=window.localStorage.getItem(&amp;quot;userName&amp;quot;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        alert(value);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    //删除数据&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    document.getElementById(&amp;quot;removeData&amp;quot;).onclick=function()&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        window.localStorage.removeItem(&amp;quot;userName&amp;quot;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;多媒体自定义视频播放器&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#多媒体自定义视频播放器&#34;&gt;#&lt;/a&gt; 多媒体–自定义视频播放器&lt;/h4&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3d3dy53M3NjaG9vbC5jb20uY24vdGFncy9odG1sX3JlZl9hdWRpb192aWRlb19kb20uYXNw&#34;&gt;http://www.w3school.com.cn/tags/html_ref_audio_video_dom.asp&lt;/span&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;常用方法：load () 加载、  play () 播放、  pause () 暂停&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Jq 没有提供对视频播放控件的方式，也就意味着如果要操作视频播放，必须使用原生的 js 方法 —dom 元素&lt;/p&gt;
+&lt;p&gt;​	2. 常用属性：&lt;/p&gt;
+&lt;p&gt;a) currentTime 视频播放的当前进度、&lt;/p&gt;
+&lt;p&gt;b) duration: 视频的总时间  100000/60&lt;/p&gt;
+&lt;p&gt;c) paused: 视频播放的状态.&lt;/p&gt;
+&lt;p&gt;​	3. 常用事件：&lt;/p&gt;
+&lt;p&gt;a) oncanplay: 事件在用户可以开始播放视频 / 音频（audio/video）时触发。&lt;/p&gt;
+&lt;p&gt;b) ontimeupdate: 通过该事件来报告当前的播放进度.&lt;/p&gt;
+&lt;p&gt;c) onended: 播放完时触发 — 重置&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;案例&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;//页面代码&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;h3 class=&amp;quot;playerTitle&amp;quot;&amp;gt;视频播放器&amp;lt;/h3&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;div class=&amp;quot;player&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;lt;video src=&amp;quot;../mp3/test.mp4&amp;quot;&amp;gt;&amp;lt;/video&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;lt;div class=&amp;quot;controls&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;lt;a href=&amp;quot;javascript:;&amp;quot; class=&amp;quot;switch fa fa-pause&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;lt;a href=&amp;quot;javascript:;&amp;quot; class=&amp;quot;expand fa fa-expand&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;lt;div class=&amp;quot;progress&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &amp;lt;div class=&amp;quot;bar&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &amp;lt;div class=&amp;quot;loaded&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &amp;lt;div class=&amp;quot;elapse&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;lt;/div&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;lt;div class=&amp;quot;time&amp;quot;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &amp;lt;span class=&amp;quot;currentTime&amp;quot;&amp;gt;00:00:00&amp;lt;/span&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            \&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            &amp;lt;span class=&amp;quot;totalTime&amp;quot;&amp;gt;00:00:00&amp;lt;/span&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;lt;/div&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;lt;/div&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;41&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;42&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;//js代码&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;script src=&amp;quot;../js/jquery.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    /*获取到播放器*/&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    var video=$(&amp;quot;video&amp;quot;)[0];&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    /*暂停-播放切换*/&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    $(&amp;quot;.switch&amp;quot;).click(function()&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        //1.切换样式，从暂停切换到播放，或者从播放切换到暂停&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        $(this).toggleClass(&amp;quot;fa-pause fa-play&amp;quot;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        //2.修改播放器的状态&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        if(video.paused)&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            video.play();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        else&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            video.pause();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    /*全屏*/&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    $(&amp;quot;.expand&amp;quot;).click(function()&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        video.webkitRequestFullScreen();&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    /*当可以进行播放的时候触发oncanplay*/&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    video.oncanplay=function()&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        setTimeout(function()&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            video.style.display=&amp;quot;block&amp;quot;;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            //1.获取视频的总时长,结果以秒作为单位&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            var duration=video.duration;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            /*console.log(duration);*/  //256.278&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            //2.计算 时  分  秒&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            var hour= Math.floor(duration/3600);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            var menite= Math.floor(duration%3600/60);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            var second=Math.floor(duration%60);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            //3.将时分秒信息填充到总时长span中&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            //3.1 设置时分秒的格式&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            hour=hour&amp;lt;10?&amp;quot;0&amp;quot;+hour:hour;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            menite=menite&amp;lt;10?&amp;quot;0&amp;quot;+menite:menite;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            second=second&amp;lt;10?&amp;quot;0&amp;quot;+second:second;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            //3.2填充&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;            $(&amp;quot;.totalTime&amp;quot;).html(hour+&amp;quot;:&amp;quot;+menite+&amp;quot;:&amp;quot;+second);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;        &amp;#125;,2000);&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;    /*当视频在播放的时候，会触发下下面的方法ontimeupdate*/&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h4 id=&#34;应用缓存&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#应用缓存&#34;&gt;#&lt;/a&gt; 应用缓存&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;概念&lt;/strong&gt;：使用 HTML5，通过创建 cache manifest 文件，可以轻松地创建 web 应用的离线版本&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;优势&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;a) 可配置需要缓存的资源&lt;/p&gt;
+&lt;p&gt;b) 网络无连接应用仍可用&lt;/p&gt;
+&lt;p&gt;c) 本地读取缓存资源，提升访问速度，增强用户体验&lt;/p&gt;
+&lt;p&gt;d) 减少请求，缓解服务器负担&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Cache Manifest 基础&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;a)&lt;/strong&gt; 如需启用应用程序缓存，请在文档的 &lt;html&gt; 标签中包含 manifest 属性：&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;!DOCTYPE HTML&gt;
+&lt;html manifest=&#34;demo.appcache&#34;&gt;
+&lt;p&gt;…&lt;/p&gt;
+&lt;/html&gt;
+&lt;p&gt;​	&lt;strong&gt;b)&lt;/strong&gt; 每个指定了 manifest 的页面在用户对其访问时都会被缓存。如果未指定 manifest 属性，则页面不会被缓存（除非在 manifest 文件中直接指定了该页面）。&lt;/p&gt;
+&lt;p&gt;​	&lt;strong&gt;c)&lt;/strong&gt; manifest 文件的建议的文件扩展名是：&amp;quot;.appcache&amp;quot;。&lt;/p&gt;
+&lt;p&gt;​	&lt;strong&gt;d)&lt;/strong&gt; 注意，manifest 文件需要配置正确的 MIME-type，即 “text/cache-manifest”。必须在 web 服务器上进行配置&lt;/p&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Manifest 文件&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;a)&lt;/strong&gt; 概念：manifest 文件是简单的文本文件，它告知浏览器被缓存的内容（以及不缓存的内容）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;b)&lt;/strong&gt; manifest 文件可分为三个部分&lt;/p&gt;
+&lt;p&gt;​	Ø CACHE MANIFEST – 开始&lt;/p&gt;
+&lt;p&gt;​	Ø CACHE 在此标题下列出的文件将在首次下载后进行缓存&lt;/p&gt;
+&lt;p&gt;​	Ø NETWORK - 在此标题下列出的文件需要与服务器的连接，且不会被缓存&lt;/p&gt;
+&lt;p&gt;​	Ø FALLBACK - 在此标题下列出的文件规定当页面无法访问时的回退页面（比如 404 页面）&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;c)&lt;/strong&gt; CACHE MANIFEST 说明：&lt;/p&gt;
+&lt;p&gt;​	CACHE MANIFEST，放置在第一行，是必需的：&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;----------------------------------------------------------------------------------------------------&lt;/p&gt;
+&lt;p&gt;CACHE ：&lt;/p&gt;
+&lt;p&gt;/theme.css&lt;/p&gt;
+&lt;p&gt;/logo.gif&lt;/p&gt;
+&lt;p&gt;/main.js&lt;/p&gt;
+&lt;p&gt;----------------------------------------------------------------------------------------------------&lt;/p&gt;
+&lt;p&gt;​	上面的 manifest 文件列出了三个资源：一个 CSS 文件，一个 GIF 图像，	以及一个 JavaScript 文件。当 manifest 文件加载后，浏览器会从网站的	根目录下载这三个文件。然后，无论用户何时与因特网断开连接，这些资	源依然是可用的&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;d)&lt;/strong&gt; NETWORK 说明：&lt;/p&gt;
+&lt;p&gt;​	NETWORK 小节规定文件 “login.asp” 永远不会被缓存，且离线时是不可	用的，如&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;​	NETWORK:&lt;/p&gt;
+&lt;p&gt;login.asp&lt;/p&gt;
+&lt;p&gt;----------------------------------------------------------------------------------------------------&lt;/p&gt;
+&lt;p&gt;​	&lt;strong&gt;e)&lt;/strong&gt; FALLBACK 说明：&lt;/p&gt;
+&lt;p&gt;​		FALLBACK 小节规定如果无法建立因特网连接，就使用指定的资源代替		所请求的 url 的资源，如：&lt;/p&gt;
+&lt;p&gt;------------------------------------------------------------------------------------------------------&lt;/p&gt;
+&lt;p&gt;FALLBACK:&lt;/p&gt;
+&lt;p&gt;/html5/ /404.html&lt;/p&gt;
+&lt;p&gt;-------------------------------------------------------------------------------------------------------&lt;/p&gt;
+&lt;p&gt;注释：当 html5 资源在离线状态下无法请求的时候，就使用 404.html 代替&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;f)&lt;/strong&gt; 其它：&lt;/p&gt;
+&lt;p&gt;​	1、CACHE: 可以省略，这种情况下将需要缓存的资源写在 CACHE MANIFEST&lt;/p&gt;
+&lt;p&gt;​	2、可以指定多个 CACHE: NETWORK: FALLBACK:，无顺序限制&lt;/p&gt;
+&lt;p&gt;​	3、# 表示注释，只有当 demo.appcache 文件内容发生改变时或者手动清除缓存后，才会重新缓存。&lt;/p&gt;
+&lt;p&gt;​	4、chrome 可以通过 chrome://appcache-internals/ 工具和离线（offline）模式来调试管理应用缓存&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;g)&lt;/strong&gt; 更新缓存：&lt;/p&gt;
+&lt;p&gt;​	一旦文件被缓存，则浏览器会继续展示已缓存的版本，即使修改了服务器	上的文件。为了确保浏览器更新缓存，也需要更新 manifest 文件，也就	意味着一旦应用被缓存，它就会保持缓存直到发生下列情况：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;用户清空浏览器缓存&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;manifest 文件被修改（参阅下面的提示）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;由程序来更新应用缓存&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;说明：更新注释行中的日期和版本号是一种使浏览器重新缓存文件的办法&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

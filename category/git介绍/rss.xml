@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+    <channel>
+        <title>Welcome • Posts by &#34;git介绍&#34; category</title>
+        <link>http://example.com</link>
+        <description></description>
+        <language>zh-CN</language>
+        <pubDate>Tue, 25 Oct 2022 15:25:38 +0800</pubDate>
+        <lastBuildDate>Tue, 25 Oct 2022 15:25:38 +0800</lastBuildDate>
+        <category>blog</category>
+        <category>Git</category>
+        <category>JAVA</category>
+        <category>Redis</category>
+        <category>JDK</category>
+        <category>环境配置</category>
+        <category>WEB</category>
+        <category>HTML</category>
+        <category>Vue</category>
+        <category>Uniapp</category>
+        <category>iconfont</category>
+        <category>阿里巴巴矢量库</category>
+        <category>依赖</category>
+        <category>uview</category>
+        <category>UI框架</category>
+        <category>Jar</category>
+        <item>
+            <guid isPermalink="true">http://example.com/2022/10/25/blog/Git/Git/</guid>
+            <title>Git</title>
+            <link>http://example.com/2022/10/25/blog/Git/Git/</link>
+            <category>blog</category>
+            <category>Git</category>
+            <pubDate>Tue, 25 Oct 2022 15:25:38 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;版本控制&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#版本控制&#34;&gt;#&lt;/a&gt; 👉版本控制&lt;/h2&gt;
+&lt;details class=&#34;warning&#34;&gt;&lt;summary&gt;什么是版本控制&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;版本控制（Revision control）是一种在开发的过程中用于管理我们对文件、目录或工程等内容的修改历史，方便查看更改历史记录，备份以便恢复以前的版本的软件工程技术。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;实现跨区域多人协同开发&lt;/li&gt;
+&lt;li&gt;追踪和记载一个或者多个文件的历史记录&lt;/li&gt;
+&lt;li&gt;组织和保护你的源代码和文档&lt;/li&gt;
+&lt;li&gt;统计工作量&lt;/li&gt;
+&lt;li&gt;并行开发、提高开发效率&lt;/li&gt;
+&lt;li&gt;跟踪记录整个软件的开发过程&lt;/li&gt;
+&lt;li&gt;减轻开发人员的负担，节省时间，同时降低人为错误&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;简单说就是用于管理多人协同开发项目的技术。&lt;/p&gt;
+&lt;p&gt;没有进行版本控制或者版本控制本身缺乏正确的流程管理，在软件开发过程中将会引入很多问题，如软件代码的一致性、软件内容的冗余、软件过程的事物性、软件开发过程中的并发性、软件源代码的安全性，以及软件的整合等问题。&lt;/p&gt;
+&lt;p&gt;无论是工作还是学习，或者是自己做笔记，都经历过这样一个阶段！我们就迫切需要一个版本控制工具！&lt;/p&gt;
+&lt;p&gt;多人开发就必须要使用版本控制！&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;warning&#34;&gt;&lt;summary&gt;常见的版本控制工具&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;我们学习的东西，一定是当下最流行的！&lt;/p&gt;
+&lt;p&gt;主流的版本控制器有如下这些：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Git&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SVN&lt;/strong&gt;（Subversion）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CVS&lt;/strong&gt;（Concurrent Versions System）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;VSS&lt;/strong&gt;（Micorosoft Visual SourceSafe）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TFS&lt;/strong&gt;（Team Foundation Server）&lt;/li&gt;
+&lt;li&gt;Visual Studio Online&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;版本控制产品非常的多（Perforce、Rational ClearCase、RCS（GNU Revision Control System）、Serena Dimention、SVK、BitKeeper、Monotone、Bazaar、Mercurial、SourceGear Vault），现在影响力最大且使用最广泛的是 Git 与 SVN&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;warning&#34;&gt;&lt;summary&gt;版本控制分类&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;&lt;strong&gt;1、本地版本控制&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;记录文件每次的更新，可以对每个版本做一个快照，或是记录补丁文件，适合个人用，如 RCS。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2、集中版本控制  SVN&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;所有的版本数据都保存在服务器上，协同开发者从服务器上同步更新或上传自己的修改&lt;/p&gt;
+&lt;p&gt;所有的版本数据都存在服务器上，用户的本地只有自己以前所同步的版本，如果不连网的话，用户就看不到历史版本，也无法切换版本验证问题，或在不同分支工作。而且，所有数据都保存在单一的服务器上，有很大的风险这个服务器会损坏，这样就会丢失所有的数据，当然可以定期备份。代表产品：SVN、CVS、VSS&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3、分布式版本控制 	Git&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;每个人都拥有全部的代码！安全隐患！&lt;/p&gt;
+&lt;p&gt;所有版本信息仓库全部同步到本地的每个用户，这样就可以在本地查看所有版本历史，可以离线在本地提交，只需在连网时 push 到相应的服务器或其他用户那里。由于每个用户那里保存的都是所有的版本数据，只要有一个用户的设备没有问题就可以恢复所有的数据，但这增加了本地存储空间的占用。&lt;/p&gt;
+&lt;p&gt;不会因为服务器损坏或者网络问题，造成不能工作的情况！&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;warning&#34;&gt;&lt;summary&gt;Git与SVN的主要区别&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;SVN 是集中式版本控制系统，版本库是集中放在中央服务器的，而工作的时候，用的都是自己的电脑，所以首先要从中央服务器得到最新的版本，然后工作，完成工作后，需要把自己做完的活推送到中央服务器。集中式版本控制系统是必须联网才能工作，对网络带宽要求较高。&lt;/p&gt;
+&lt;p&gt;Git 是分布式版本控制系统，没有中央服务器，每个人的电脑就是一个完整的版本库，工作的时候不需要联网了，因为版本都在自己电脑上。协同的方法是这样的：比如说自己在电脑上改了文件 A，其他人也在电脑上改了文件 A，这时，你们两之间只需把各自的修改推送给对方，就可以互相看到对方的修改了。Git 可以直接看到更新了哪些代码和文件！&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Git 是目前世界上最先进的分布式版本控制系统。&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;h2 id=&#34;聊聊git的历史&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#聊聊git的历史&#34;&gt;#&lt;/a&gt; 👉聊聊 Git 的历史&lt;/h2&gt;
+&lt;p&gt;同生活中的许多伟大事物一样，Git 诞生于一个极富纷争大举创新的年代。&lt;/p&gt;
+&lt;p&gt;Linux 内核开源项目有着为数众广的参与者。绝大多数的 Linux 内核维护工作都花在了提交补丁和保存归档的繁琐事务上 (1991－2002 年间)。到 2002 年，整个项目组开始启用一个专有的分布式版本控制系统 BitKeeper 来管理和维护代码。&lt;/p&gt;
+&lt;p&gt;Linux 社区中存在很多的大佬！破解研究 BitKeeper ！&lt;/p&gt;
+&lt;p&gt;到了 2005 年，开发 BitKeeper 的商业公司同 Linux 内核开源社区的合作关系结束，他们收回了 Linux 内核社区免费使用 BitKeeper 的权力。这就迫使 Linux 开源社区 (特别是 Linux 的缔造者 Linus Torvalds) 基于使用 BitKeeper 时的经验教训，开发出自己的版本系统。（2 周左右！） 也就是后来的 Git！&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Git 是目前世界上最先进的分布式版本控制系统。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Git 是免费、开源的，最初 Git 是为辅助 Linux 内核开发的，来替代 BitKeeper！&lt;/p&gt;
+&lt;p&gt;Linux 和 Git 之父李纳斯・托沃兹（Linus Benedic Torvalds）1969、芬兰&lt;/p&gt;
+&lt;h2 id=&#34;git环境配置&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#git环境配置&#34;&gt;#&lt;/a&gt; 👉Git 环境配置&lt;/h2&gt;
+&lt;details class=&#34;warning&#34;&gt;&lt;summary&gt;软件下载&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;打开 [git 官网] &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXQtc2NtLmNvbS8lRUYlQkMlOEMlRTQlQjglOEIlRTglQkQlQkRnaXQlRTUlQUYlQjklRTUlQkElOTQlRTYlOTMlOEQlRTQlQkQlOUMlRTclQjMlQkIlRTclQkIlOUYlRTclOUElODQlRTclODklODglRTYlOUMlQUMlRTMlODAlODI=&#34;&gt;https://git-scm.com/，下载 git 对应操作系统的版本。&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;所有东西下载慢的话就可以去找镜像！&lt;/p&gt;
+&lt;p&gt;官网下载太慢，我们可以使用淘宝镜像下载：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL25wbS50YW9iYW8ub3JnL21pcnJvcnMvZ2l0LWZvci13aW5kb3dzLw==&#34;&gt;http://npm.taobao.org/mirrors/git-for-windows/&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;下载对应的版本即可安装！&lt;/p&gt;
+&lt;p&gt;安装：无脑下一步即可！安装完毕就可以使用了！&lt;/p&gt;
+&lt;details class=&#34;warning&#34;&gt;&lt;summary&gt;启动Git&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;安装成功后在开始菜单中会有 Git 项，菜单下有 3 个程序：任意文件夹下右键也可以看到对应的程序！&lt;/p&gt;
+&lt;p&gt;**Git Bash：**Unix 与 Linux 风格的命令行，使用最多，推荐最多&lt;/p&gt;
+&lt;p&gt;**Git CMD：**Windows 风格的命令行&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Git GUI&lt;/strong&gt;：图形界面的 Git，不建议初学者使用，尽量先熟悉常用命令&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;warning&#34;&gt;&lt;summary&gt;常用的Linux命令&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;平时一定要多使用这些基础的命令！&lt;/p&gt;
+&lt;p&gt;1）、cd : 改变目录。&lt;/p&gt;
+&lt;p&gt;2）、cd . . 回退到上一个目录，直接 cd 进入默认目录&lt;/p&gt;
+&lt;p&gt;3）、pwd : 显示当前所在的目录路径。&lt;/p&gt;
+&lt;p&gt;4）、ls (ll):  都是列出当前目录中的所有文件，只不过 ll (两个 ll) 列出的内容更为详细。&lt;/p&gt;
+&lt;p&gt;5）、touch : 新建一个文件 如 touch index.js 就会在当前目录下新建一个 index.js 文件。&lt;/p&gt;
+&lt;p&gt;6）、rm:  删除一个文件，rm index.js 就会把 index.js 文件删除。&lt;/p&gt;
+&lt;p&gt;7）、mkdir:  新建一个目录，就是新建一个文件夹。&lt;/p&gt;
+&lt;p&gt;8）、rm -r :  删除一个文件夹，rm -r src 删除 src 目录&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;rm -rf / 切勿在Linux中尝试！删除电脑中全部文件！&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;9）、mv 移动文件，mv index.html src index.html 是我们要移动的文件，src 是目标文件夹，当然，这样写，必须保证文件和目标文件夹在同一目录下。&lt;/p&gt;
+&lt;p&gt;10）、reset 重新初始化终端 / 清屏。&lt;/p&gt;
+&lt;p&gt;11）、clear 清屏。&lt;/p&gt;
+&lt;p&gt;12）、history 查看命令历史。&lt;/p&gt;
+&lt;p&gt;13）、help 帮助。&lt;/p&gt;
+&lt;p&gt;14）、exit 退出。&lt;/p&gt;
+&lt;p&gt;15）、# 表示注释&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;warning&#34;&gt;&lt;summary&gt;Git配置&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;所有的配置文件，其实都保存在本地！&lt;/p&gt;
+&lt;p&gt;查看配置 git config -l&lt;/p&gt;
+&lt;p&gt;查看不同级别的配置文件：&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;#查看系统configgit config --system --list　　&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;#查看当前用户（global）配置git config --global  --list&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;Git 相关的配置文件：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;1）、Git\etc\gitconfig  ：Git 安装目录下的 gitconfig   --system 系统级&lt;/p&gt;
+&lt;p&gt;2）、C:\Users\Administrator\ .gitconfig   只适用于当前登录用户的配置  --global 全局&lt;/p&gt;
+&lt;p&gt;这里可以直接编辑配置文件，通过命令设置后会响应到这里。&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;warning&#34;&gt;&lt;summary&gt;设置用户名与邮箱（用户标识，必要）&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;当你安装 Git 后首先要做的事情是设置你的用户名称和 e-mail 地址。这是非常重要的，因为每次 Git 提交都会使用该信息。它被永远的嵌入到了你的提交中：&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;git config --global user.name &amp;quot;kuangshen&amp;quot; #名称&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git config --global user.email 24736743@qq.com   #邮箱&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;只需要做一次这个设置，如果你传递了–global 选项，因为 Git 将总是会使用该信息来处理你在系统中所做的一切操作。如果你希望在一个特定的项目中使用不同的名称或 e-mail 地址，你可以在该项目中运行该命令而不要–global 选项。总之–global 为全局配置，不加为某个项目的特定配置。&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;h2 id=&#34;git基本理论重要&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#git基本理论重要&#34;&gt;#&lt;/a&gt; 👉Git 基本理论（重要）&lt;/h2&gt;
+&lt;details class=&#34;warning&#34;&gt;&lt;summary&gt;三个区域&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;Git 本地有三个工作区域：工作目录（Working Directory）、暂存区 (Stage/Index)、资源库 (Repository 或 Git Directory)。如果在加上远程的 git 仓库 (Remote Directory) 就可以分为四个工作区域。文件在这四个区域之间的转换关系如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Workspace：工作区，就是你平时存放项目代码的地方&lt;/li&gt;
+&lt;li&gt;Index / Stage：暂存区，用于临时存放你的改动，事实上它只是一个文件，保存即将提交到文件列表信息&lt;/li&gt;
+&lt;li&gt;Repository：仓库区（或本地仓库），就是安全存放数据的位置，这里面有你提交到所有版本的数据。其中 HEAD 指向最新放入仓库的版本&lt;/li&gt;
+&lt;li&gt;Remote：远程仓库，托管代码的服务器，可以简单的认为是你项目组中的一台电脑用于远程数据交换&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;本地的三个区域确切的说应该是 git 仓库中 HEAD 指向的版本：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Directory：使用 Git 管理的一个目录，也就是一个仓库，包含我们的工作空间和 Git 的管理空间。&lt;/li&gt;
+&lt;li&gt;WorkSpace：需要通过 Git 进行版本控制的目录和文件，这些目录和文件组成了工作空间。&lt;/li&gt;
+&lt;li&gt;.git：存放 Git 管理信息的目录，初始化仓库的时候自动创建。&lt;/li&gt;
+&lt;li&gt;Index/Stage：暂存区，或者叫待提交更新区，在提交进入 repo 之前，我们可以把所有的更新放在暂存区。&lt;/li&gt;
+&lt;li&gt;Local Repo：本地仓库，一个存放在本地的版本库；HEAD 会只是当前的开发分支（branch）。&lt;/li&gt;
+&lt;li&gt;Stash：隐藏，是一个工作状态保存栈，用于保存 / 恢复 WorkSpace 中的临时状态。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;warning&#34;&gt;&lt;summary&gt;工作流程&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;git 的工作流程一般是这样的：&lt;/p&gt;
+&lt;p&gt;１、在工作目录中添加、修改文件；&lt;/p&gt;
+&lt;p&gt;２、将需要进行版本管理的文件放入暂存区域；&lt;/p&gt;
+&lt;p&gt;３、将暂存区域的文件提交到 git 仓库。&lt;/p&gt;
+&lt;p&gt;因此，git 管理的文件有三种状态：已修改（modified）, 已暂存（staged）, 已提交 (committed)&lt;/p&gt;
+&lt;p&gt;Git 项目搭建&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;warning&#34;&gt;&lt;summary&gt;创建工作目录与常用指令&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;工作目录（WorkSpace) 一般就是你希望 Git 帮助你管理的文件夹，可以是你项目的目录，也可以是一个空目录，建议不要有中文。&lt;/p&gt;
+&lt;p&gt;日常使用只要记住下图 6 个命令：&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;warning&#34;&gt;&lt;summary&gt;本地仓库搭建&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;创建本地仓库的方法有两种：一种是创建全新的仓库，另一种是克隆远程仓库。&lt;/p&gt;
+&lt;p&gt;1、创建全新的仓库，需要用 GIT 管理的项目的根目录执行：&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;# 在当前目录新建一个Git代码库$ git init&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;2、执行后可以看到，仅仅在项目目录多出了一个.git 目录，关于版本等的所有信息都在这个目录里面。&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;warning&#34;&gt;&lt;summary&gt;克隆远程仓库&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;1、另一种方式是克隆远程目录，由于是将远程服务器上的仓库完全镜像一份至本地！&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;# 克隆一个项目和它的整个代码历史(版本信息)$ git clone [url]  # https://gitee.com/kuangstudy/openclass.git&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;示例：$ git clone https://gitee.com/kuangstudy/openclass.git&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;2、去 gitee 或者 github 上克隆一个测试！&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;h2 id=&#34;git文件操作&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#git文件操作&#34;&gt;#&lt;/a&gt; 👉Git 文件操作&lt;/h2&gt;
+&lt;details class=&#34;warning&#34;&gt;&lt;summary&gt;文件的四种状态&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;版本控制就是对文件的版本控制，要对文件进行修改、提交等操作，首先要知道文件当前在什么状态，不然可能会提交了现在还不想提交的文件，或者要提交的文件没提交上。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Untracked: 未跟踪，此文件在文件夹中，但并没有加入到 git 库，不参与版本控制。通过 git add 状态变为 Staged.&lt;/li&gt;
+&lt;li&gt;Unmodify: 文件已经入库，未修改，即版本库中的文件快照内容与文件夹中完全一致。这种类型的文件有两种去处，如果它被修改，而变为 Modified. 如果使用 git rm 移出版本库，则成为 Untracked 文件&lt;/li&gt;
+&lt;li&gt;Modified: 文件已修改，仅仅是修改，并没有进行其他的操作。这个文件也有两个去处，通过 git add 可进入暂存 staged 状态，使用 git checkout 则丢弃修改过，返回到 unmodify 状态，这个 git checkout 即从库中取出文件，覆盖当前修改！&lt;/li&gt;
+&lt;li&gt;Staged: 暂存状态。执行 git commit 则将修改同步到库中，这时库中的文件和本地文件又变为一致，文件为 Unmodify 状态。执行 git reset HEAD filename 取消暂存，文件状态为 Modified&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;warning&#34;&gt;&lt;summary&gt;查看文件状态&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;上面说文件有 4 种状态，通过如下命令可以查看到文件的状态：&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;8&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;#查看指定文件状态&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git status [filename]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;#查看所有文件状态&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;git status&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;# git add .                  添加所有文件到暂存区&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;# git commit -m &amp;quot;消息内容&amp;quot;    提交暂存区中的内容到本地仓库 -m 提交信息 &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;  示例git commit -m &amp;quot;new file hello.txt&amp;quot;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;warning&#34;&gt;&lt;summary&gt;忽略文件&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;有些时候我们不想把某些文件纳入版本控制中，比如数据库文件，临时文件，设计文件等&lt;/p&gt;
+&lt;p&gt;在主目录下建立 &amp;quot;.gitignore&amp;quot; 文件，此文件有如下规则：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;忽略文件中的空行或以井号（#）开始的行将会被忽略。&lt;/li&gt;
+&lt;li&gt;可以使用 Linux 通配符。例如：星号（*）代表任意多个字符，问号（？）代表一个字符，方括号（[abc]）代表可选字符范围，大括号（{string1,string2,…}）代表可选的字符串等。&lt;/li&gt;
+&lt;li&gt;如果名称的最前面有一个感叹号（!），表示例外规则，将不被忽略。&lt;/li&gt;
+&lt;li&gt;如果名称的最前面是一个路径分隔符（/），表示要忽略的文件在此目录下，而子目录中的文件不忽略。&lt;/li&gt;
+&lt;li&gt;如果名称的最后面是一个路径分隔符（/），表示要忽略的是此目录下该名称的子目录，而非文件（默认文件或目录都忽略）。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;#为注释*.txt        &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;#忽略所有 .txt结尾的文件,这样的话上传就不会被选中！!lib.txt     &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;#但lib.txt除外/temp        &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;#仅忽略项目根目录下的TODO文件,不包括其它目录tempbuild/       &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;#忽略build/目录下的所有文件doc/*.txt    &lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;#会忽略 doc/notes.txt 但不包括 doc/server/arch.txt&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;h2 id=&#34;使用码云&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#使用码云&#34;&gt;#&lt;/a&gt; 👉使用码云&lt;/h2&gt;
+&lt;details class=&#34;warning&#34;&gt;&lt;summary&gt;github 是有墙的，比较慢，在国内的话，我们一般使用 gitee ，公司中有时候会搭建自己的gitlab服务器&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;这个其实可以作为大家未来找工作的一个重要信息！&lt;/p&gt;
+&lt;p&gt;1、注册登录码云，完善个人信息&lt;/p&gt;
+&lt;p&gt;2、设置本机绑定 SSH 公钥，实现免密码登录！（免密码登录，这一步挺重要的，码云是远程仓库，我们是平时工作在本地仓库！)&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;# 进入 C:\Users\Administrator\.ssh 目录&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;# 生成公钥&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;ssh-keygen&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;3、将公钥信息 public key 添加到码云账户中即可！&lt;/p&gt;
+&lt;p&gt;4、&lt;strong&gt;使用码云创建一个自己的仓库！&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;许可证：开源是否可以随意转载，开源但是不能商业使用，不能转载，…  限制！&lt;/p&gt;
+&lt;img data-src=&#34;https://mmbiz.qpic.cn/mmbiz_png/uJDAUKrGC7Ksu8UlITwMlbX3kMGtZ9p0S96XfGogNWVqRAexeybT7DXdyQhfcYJ1oEAgaH1RibRU0WZE0eczdxw/640?wx_fmt=png&amp;wxfrom=5&amp;wx_lazy=1&amp;wx_co=1&#34; alt=&#34;图片&#34; style=&#34;zoom: 50%;&#34; /&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;details class=&#34;warning&#34;&gt;&lt;summary&gt;**uniapp项目上传码云**&lt;/summary&gt;&lt;div&gt;
+&lt;p&gt;克隆到本地！&lt;/p&gt;
+&lt;/div&gt;&lt;/details&gt;
+&lt;h2 id=&#34;idea中集成git&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#idea中集成git&#34;&gt;#&lt;/a&gt; 👉IDEA 中集成 Git&lt;/h2&gt;
+&lt;p&gt;1、新建项目，绑定 git。&lt;/p&gt;
+&lt;p&gt;注意观察 idea 中的变化&lt;/p&gt;
+&lt;p&gt;2、修改文件，使用 IDEA 操作 git。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;添加到暂存区&lt;/li&gt;
+&lt;li&gt;commit 提交&lt;/li&gt;
+&lt;li&gt;push 到远程仓库&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;3、提交测试&lt;/p&gt;
+&lt;p&gt;这些都是单个人的操作！&lt;/p&gt;
+&lt;p&gt;学习的方式最重要！学会学习！我上课的更多时候都是在教大家去学习一种理念和思想（学习方式）&lt;/p&gt;
+&lt;p&gt;有道无术、术尚可求。有术无道、止于术！&lt;/p&gt;
+&lt;p&gt;真正的教学，授人以渔！&lt;/p&gt;
+&lt;h2 id=&#34;说明git分支&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#说明git分支&#34;&gt;#&lt;/a&gt; 👉说明：GIT 分支&lt;/h2&gt;
+&lt;p&gt;分支在 GIT 中相对较难，分支就是科幻电影里面的平行宇宙，如果两个平行宇宙互不干扰，那对现在的你也没啥影响。不过，在某个时间点，两个平行宇宙合并了，我们就需要处理一些问题了！&lt;/p&gt;
+&lt;p&gt;git 分支中常用指令：&lt;/p&gt;
+&lt;figure class=&#34;highlight plaintext&#34;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&#34;gutter&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&#34;code&#34;&gt;&lt;pre&gt;&lt;span class=&#34;line&#34;&gt;# 列出所有本地分支git branch&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;# 列出所有远程分支git branch -r&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;# 新建一个分支，但依然停留在当前分支git branch [branch-name]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;# 新建一个分支，并切换到该分支git checkout -b [branch]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;# 合并指定分支到当前分支$ git merge [branch]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;# 删除分支$ git branch -d [branch-name]&lt;/span&gt;&lt;br&gt;&lt;span class=&#34;line&#34;&gt;# 删除远程分支$ git push origin --delete [branch-name]$ git branch -dr [remote/branch]&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;IDEA 中操作&lt;/p&gt;
+&lt;p&gt;如果同一个文件在合并分支时都被修改了则会引起冲突：解决的办法是我们可以修改冲突文件后重新提交！选择要保留他的代码还是你的代码！&lt;/p&gt;
+&lt;p&gt;master 主分支应该非常稳定，用来发布新版本，一般情况下不允许在上面工作，工作一般情况下在新建的 dev 分支上工作，工作完后，比如上要发布，或者说 dev 分支代码稳定后可以合并到主分支 master 上来。&lt;/p&gt;
+ ]]></description>
+        </item>
+    </channel>
+</rss>

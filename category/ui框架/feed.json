@@ -1,0 +1,22 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Welcome • All posts by \"ui框架\" category",
+    "description": "",
+    "home_page_url": "http://example.com",
+    "items": [
+        {
+            "id": "http://example.com/2022/11/22/blog/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/%E5%89%8D%E7%AB%AF/%E5%AE%89%E8%A3%85uview%E6%8A%A5%E9%94%99/",
+            "url": "http://example.com/2022/11/22/blog/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/%E5%89%8D%E7%AB%AF/%E5%AE%89%E8%A3%85uview%E6%8A%A5%E9%94%99/",
+            "title": "安装uview报错",
+            "date_published": "2022-11-22T07:25:38.000Z",
+            "content_html": "<h1 id=\"安装uview报错\"><a class=\"markdownIt-Anchor\" href=\"#安装uview报错\">#</a> 安装 uview 报错</h1>\n<h4 id=\"mainjs添加\"><a class=\"markdownIt-Anchor\" href=\"#mainjs添加\">#</a> main.js 添加</h4>\n<figure class=\"highlight plaintext\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">// main.js</span><br><span class=\"line\">import uView from &#x27;@/uni_modules/uview-ui&#x27;</span><br><span class=\"line\">Vue.use(uView)</span><br></pre></td></tr></table></figure>\n<p><strong>效果下图所示</strong></p>\n<figure class=\"highlight plaintext\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br><span class=\"line\">3</span><br><span class=\"line\">4</span><br><span class=\"line\">5</span><br><span class=\"line\">6</span><br><span class=\"line\">7</span><br><span class=\"line\">8</span><br><span class=\"line\">9</span><br><span class=\"line\">10</span><br><span class=\"line\">11</span><br><span class=\"line\">12</span><br><span class=\"line\">13</span><br><span class=\"line\">14</span><br><span class=\"line\">15</span><br><span class=\"line\">16</span><br><span class=\"line\">17</span><br><span class=\"line\">18</span><br><span class=\"line\">19</span><br><span class=\"line\">20</span><br><span class=\"line\">21</span><br><span class=\"line\">22</span><br><span class=\"line\">23</span><br><span class=\"line\">24</span><br><span class=\"line\">25</span><br><span class=\"line\">26</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">import App from &#x27;./App&#x27;</span><br><span class=\"line\"></span><br><span class=\"line\">// #ifndef VUE3</span><br><span class=\"line\">import Vue from &#x27;vue&#x27;</span><br><span class=\"line\"></span><br><span class=\"line\">// main.js</span><br><span class=\"line\">import uView from &#x27;@/uni_modules/uview-ui&#x27;</span><br><span class=\"line\">Vue.use(uView)</span><br><span class=\"line\"></span><br><span class=\"line\">Vue.config.productionTip = false</span><br><span class=\"line\">App.mpType = &#x27;app&#x27;</span><br><span class=\"line\">const app = new Vue(&#123;</span><br><span class=\"line\">    ...App</span><br><span class=\"line\">&#125;)</span><br><span class=\"line\">app.$mount()</span><br><span class=\"line\">// #endif</span><br><span class=\"line\"></span><br><span class=\"line\">// #ifdef VUE3</span><br><span class=\"line\">import &#123; createSSRApp &#125; from &#x27;vue&#x27;</span><br><span class=\"line\">export function createApp() &#123;</span><br><span class=\"line\">  const app = createSSRApp(App)</span><br><span class=\"line\">  return &#123;</span><br><span class=\"line\">    app</span><br><span class=\"line\">  &#125;</span><br><span class=\"line\">&#125;</span><br><span class=\"line\">// #endif</span><br></pre></td></tr></table></figure>\n<h4 id=\"uniscss添加\"><a class=\"markdownIt-Anchor\" href=\"#uniscss添加\">#</a> uni.scss 添加</h4>\n<figure class=\"highlight plaintext\"><table><tr><td class=\"gutter\"><pre><span class=\"line\">1</span><br><span class=\"line\">2</span><br></pre></td><td class=\"code\"><pre><span class=\"line\">/* uni.scss */</span><br><span class=\"line\">@import &#x27;@/uni_modules/uview-ui/theme.scss&#x27;;</span><br></pre></td></tr></table></figure>\n",
+            "tags": [
+                "blog",
+                "WEB",
+                "Vue",
+                "uview",
+                "UI框架"
+            ]
+        }
+    ]
+}
