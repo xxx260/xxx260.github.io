@@ -7,19 +7,19 @@
     <category term="blog" />
     <category term="Git" />
     <category term="JAVA" />
-    <category term="Redis" />
     <category term="JDK" />
     <category term="环境配置" />
+    <category term="Redis" />
     <category term="WEB" />
     <category term="HTML" />
     <category term="Vue" />
     <category term="Uniapp" />
+    <category term="依赖" />
     <category term="iconfont" />
     <category term="阿里巴巴矢量库" />
-    <category term="依赖" />
+    <category term="Jar" />
     <category term="uview" />
     <category term="UI框架" />
-    <category term="Jar" />
     <entry>
         <id>http://example.com/2022/10/28/blog/%E5%89%8D%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/%E5%90%8E%E7%AB%AF/JDK%E5%85%A8%E5%B1%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E9%97%AE%E9%A2%98/</id>
         <title>JDK全局环境配置问题</title>
